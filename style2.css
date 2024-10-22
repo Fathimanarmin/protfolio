@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    }
+#div1{
+    width: 100%;
+    height: 100vh;
+    background-color: #eff4fd; 
+    position: relative;
+}
+#img1{
+    margin: 0px;
+    padding-left: 100px;
+    padding-top: 50px;
+    width: 107px;
+    height:50px ;
+}
+nav  ul li{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    left: 50%;
+    margin: 20px;
+    top: -30px;
+  }
+  nav  ul li  a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+
+/* nav ul li{
+    text-decoration: none;
+    display: inline;
+    
+}
+
+ li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 53px;
+} */
+
+.div2 h1{
+    padding-left: 102px;
+    padding-top: 173px;
+    font-size: 50px;
+}
+.div2 p{
+position: relative;
+top: 20px;
+left: 100px;
+    color: #555;
+}
+.div2 a{
+    text-decoration: none;
+    padding-left: 15px;
+    font-weight: bold;
+    background-color: black;
+    color: #eff4fd;
+    margin-left: 122px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+}
+.imge .img3{
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.imge .img3{
+    position: absolute;
+    top: 193px;
+    left:1087px;
+    height: 520px;
+}
+.imge:hover .img3{
+    left: 800px;
+}
+
+
+#boll{
+    font-size: 30px;
+    margin-top: 128px;
+    margin-left: 117px;
+}
+#insta{
+    font-size: 30px;
+    margin-top: 86px;
+    margin-left: 35px;
+}
+#im3{
+    font-size: 30px;
+    margin-top: 86px;
+    margin-left: 35px;
+}
+#div32{
+    background-color: rgb(152, 203, 152);
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+    position: relative;
+    
+
+}
+.head h1{
+    text-align: center;
+    color:white;
+    padding-top: 50px;
+}
+.head p{
+    font-size: 20px;
+    margin-left:59px;
+    margin-top: 101px;
+    text-align: center;
+}
